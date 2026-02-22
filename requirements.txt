@@ -1,0 +1,16 @@
+streamlit
+pandas
+python-dotenv
+pinecone==7.0.0
+sentence-transformers
+phidata
+pyreadline3
+google-generativeai
+PyPDF2>=3.0.0
+Google Search API / DuckDuckGo
+SERP API
+Keyword Planner / Google
+Trend APIs
+Google Search API / DuckDuckGo
+SEO rule engine
+Readability analyzer
