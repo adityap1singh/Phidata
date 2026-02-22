@@ -228,7 +228,7 @@ def embed_documents(documents: list[Document]):
 import google.generativeai as genai
 from phi.document import Document
 
-genai.configure(api_key="AIzaSyASYB6Pas5MCBUpZmsoepkbPjD1e9d76pg")
+genai.configure(api_key="abc")
 
 def embed_documents_gemini(documents: list[Document]):
     for doc in documents:
@@ -413,4 +413,5 @@ st.subheader("Response Suggestion")
 ticket = st.text_area("Paste a support ticket")
 
 if st.button("Generate Draft Reply"):
+
     st.write(agent.run(f"Suggest a response for:\n{ticket}"))
